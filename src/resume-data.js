@@ -17,7 +17,7 @@ const resumeData = {
     github: { label: "🐙 GitHub", value: "https://github.com/KAI-77" },
   },
   skills: [
-    "JavaScript (ES6+), Node.js, Express.js",
+    "JavaScript (ES6+), Node.js, Express.js, PHP (Laravel)",
     "React, HTML5, CSS3",
     "MongoDB, SQL",
     "Git, Docker (Basics)",
@@ -27,7 +27,7 @@ const resumeData = {
     {
       role: "Full-Stack Developer @ eMergence Systems and Solutions",
       points: [
-        "Led development of scalable backend services using Node.js, Express.js, and Laravel.",
+        "Led the development of scalable backend services using Express.js, Laravel and MySQL.",
         "Improved system performance by 40% using caching and database indexing strategies.",
         "Mentored interns and conducted code reviews.",
       ],
@@ -42,25 +42,26 @@ const resumeData = {
     {
       role: "Founder / Full-Stack Developer",
       points: [
-        "Led development of a startup called Petlify.",
+        "Led the development of a startup called Petlify.",
         "Founded and Architected and Startup's Website called Petlify",
       ],
     },
   ],
   projects: [
     {
-      name: "E-commerce CLI Platform",
+      name: "VitaScan",
       description:
-        "A command-line tool for managing inventory and orders built with Node.js.",
+        "A smart recipe assistant powered by the Gemini AI API that analyzes recipe macros and nutritional values. Processed 500+ recipe analyses with sub-2s response times, improving meal planning accuracy and reducing manual macro calculation by ~70%.",
     },
     {
-      name: "Real-time Chat Application",
-      description: "WebSocket-based chat app using Socket.io and React.",
+      name: "DeFi Portfolio Tracker",
+      description:
+        "A crypto and DeFi portfolio tracker that aggregates wallet balances, positions, and transaction history across multiple protocols. Indexed 1,000+ on-chain transactions, delivered real-time portfolio updates, and reduced manual tracking effort by ~60%.",
     },
   ],
   education: {
-    degree: "B.Sc in Computer Science",
-    details: "(2018–2022) | University Name | CGPA: 8.5",
+    degree: "B.Sc in Information Technology",
+    details: "(2020–2024) | Zamboanga Peninsula Polytechnic State University",
   },
 
   footerContact: {
