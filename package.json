@@ -1,15 +1,18 @@
 {
   "name": "kai-resume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My CLI Resume",
   "main": "src/index.js",
   "bin": {
-    "kai-resume": "./src/index.js"},
+    "kai-resume": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "keywords": ["resume", "cli"],
+  "keywords": [
+    "resume",
+    "cli"
+  ],
   "author": "Shan Umbong",
   "license": "ISC",
   "dependencies": {
