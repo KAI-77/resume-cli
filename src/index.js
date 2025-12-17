@@ -12,7 +12,6 @@ const ui = require("./ui-helpers");
  * The main function that orchestrates the rendering
  */
 const renderResume = () => {
-  console.info("Script started");
   // --- 1. Generate ASCII Header ---
   const headerText = figlet.textSync(data.header.name, {
     font: "Standard",
